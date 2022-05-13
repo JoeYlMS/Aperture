@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+h1{
+    margin: 0;
+}
+
+header {
+    background: #181818;
+    padding: 24px 0;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    margin: 6px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header div nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 32px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li:first-of-type {
+    margin-right: 24px;
+}
+
+header nav ul li:first-of-type a {
+    font-size: 13px;
+}
+
+header nav ul li:last-of-type a {
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-block;
+    padding: 9px 20px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.main_banner {
+    background-image: url("../image/images_fon.jpg");
+    background-size: cover;
+    height: 87vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.main_banner .container{
+    margin: inherit;
+}
+
+.main_banner h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.main_banner h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main_banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    max-width: 580px;
+    margin: auto;
+}
+
