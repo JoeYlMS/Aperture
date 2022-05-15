@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     border: none;
+
 }
 
-h1{
+h1 {
     margin: 0;
 }
 
@@ -66,16 +69,20 @@ header nav ul li:last-of-type a {
     color: #000000;
 }
 
+/*====>>section_1*/
+
 .main_banner {
     background-image: url("../image/images_fon.jpg");
     background-size: cover;
-    height: 87vh;
+    height: 75vh;
     display: flex;
     align-items: end;
     justify-content: center;
+    padding: 71px;
+    position: relative;
 }
 
-.main_banner .container{
+.main_banner .container {
     margin: inherit;
 }
 
@@ -112,4 +119,354 @@ header nav ul li:last-of-type a {
     max-width: 580px;
     margin: auto;
 }
+
+.list_item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+.list_item li {
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    margin-right: 16px;
+}
+
+.list_item li:before {
+    content: "";
+    display: inline-block;
+    background-image: url("../image/icon/tlime.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+
+.list_item li:nth-child(2):before {
+    background-image: url("../image/icon/objekt.svg");
+}
+
+.list_item li:nth-child(3):before {
+    background-image: url("../image/icon/iso.svg");
+    margin-right: 7px;
+    width: 32px;
+}
+
+.list_item li:last-of-type:before {
+    background-image: url("../image/icon/location.svg");
+    margin-right: 5px;
+    width: 10px;
+}
+
+/*====>>section_2*/
+
+.What_we_do {
+    background: black;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.What_we_do h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+.What_we_do p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+
+    color: #C0C0C0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+.What_we_do .item {
+    max-width: 575px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.What_we_do .item .description {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.What_we_do .item img {
+    display: block;
+    width: 100%;
+}
+
+.What_we_do .container {
+    max-width: 1168px;
+}
+
+.description h4 {
+
+}
+
+.what_we_do .item {
+    max-width: 575px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.what_we_do .item img {
+    display: block;
+    width: 100%;
+}
+
+.what_we_do .container {
+    max-width: 1168px;
+}
+
+.what_we_do .item .description {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.description h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.description p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 30px;
+}
+
+.description a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.description a:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 14px;
+    margin-right: 6px;
+}
+
+.description a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.description a:hover:before {
+    background-color: #fff;
+
+}
+
+/*====>>section3*/
+
+.fuji {
+    background-image: url("../image/fuji_image.jpg");
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+
+.fuji .container{
+    max-width: 1316px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+}
+
+.fuji_box {
+    max-width: 298px;
+}
+
+.fuji h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.fuji p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*====>>>section_5*/
+
+.monstera_leafs{
+    background-image: url("../image/monstera_leafs_image.jpg");
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+
+.monstera_leafs .container{
+    max-width: 1266px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+}
+
+.monstera_leafs_box{
+    max-width: 273px;
+}
+
+.monstera_leafs h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.monstera_leafs p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*====>>>section_6*/
+
+.past_clients{
+    background: #000000;
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.past_clients .container{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.past_clients .container .d-flex{
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+.past_clients h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.past_clients p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+
+/*====>>>section_7*/
+
+.star_fall{
+    background-image: url("../image/star_fall_IMAGE.jpg");
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+
+.star_fall .container{
+    max-width: 1202px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+}
+
+.star_fall_box{
+    max-width: 254px;
+}
+
+.star_fall h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.star_fall p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*=====>>>sectiom_8*/
 
