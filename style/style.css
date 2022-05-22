@@ -7,7 +7,7 @@
 
 }
 
-.margin_auto{
+.margin_auto {
     margin: auto;
 }
 
@@ -26,6 +26,9 @@ h1 {
 header {
     background: #181818;
     padding: 24px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .d-flex {
@@ -60,11 +63,11 @@ header nav ul a {
     color: #FFFFFF;
 }
 
-header nav ul a:hover{
+header nav ul a:hover {
     color: #818181;
 }
 
-header nav ul a:active{
+header nav ul a:active {
     background-color: white;
     color: #818181;
     border-radius: 8px;
@@ -92,12 +95,12 @@ header nav ul li:last-of-type a {
     transition: .3s;
 }
 
-header nav ul li:last-of-type a:hover{
+header nav ul li:last-of-type a:hover {
     background-color: #717270;
     color: white;
 }
 
-header nav ul li:last-of-type a:active{
+header nav ul li:last-of-type a:active {
     background-color: #3f403e;
     color: #6ba28b;
 }
@@ -555,5 +558,137 @@ header nav ul li:last-of-type a:active{
 .help a:hover:before {
     background-color: #fff;
 
+}
+
+/*===>>>Footer*/
+
+footer {
+    background-color: black;
+    color: white
+}
+
+footer .container {
+    max-width: 1168px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 104px;
+}
+
+.footer-catalog {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 26px;
+    border-bottom: solid 2px #FFFFFF;
+}
+
+.logo_footer img{
+     margin-bottom: 20px;
+ }
+
+.footer-Business-areas {
+    display: flex;
+}
+
+.footer-Business-areas ul li {
+    padding-bottom: 10px;
+    list-style: none
+}
+
+.footer-Business-areas ul li a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-Business-areas ul li:first-child p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.subscribe {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin: inherit;
+    border-bottom: solid 2px #FFFFFF;
+}
+
+.subscribe h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.subscribe p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.subscribe_form {
+    flex-basis: 458px;
+}
+
+.subscribe_form_box {
+    max-width: 458px;
+    padding: 7px 6px 7px 7px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.subscribe_form_input {
+    width: 100%;
+}
+
+.subscribe button {
+    padding: 15px 32px;
+    background-color: black;
+    border-radius: 11px;
+}
+
+.info{
+    padding-top: 56px;
+}
+
+.info p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-right: 5px;
+}
+
+.footer_licensing a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.footer_icon a{
+    margin-right: 20px;
 }
 
