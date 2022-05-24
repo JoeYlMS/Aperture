@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Regular.woff2') format('woff2'),
+    url('../font/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
 
 * {
     padding: 0;
