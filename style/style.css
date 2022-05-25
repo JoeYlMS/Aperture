@@ -378,6 +378,91 @@ header nav ul li:last-of-type a:active {
     color: #C0C0C0;
 }
 
+/*=====>>>>>section_4*/
+
+.tools{
+    background: url("../image/tools.jpg") no-repeat right black ;
+    height: 70vh;
+    background-size: 50% 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.tools-box{
+    max-width: 514px;
+    position: relative;
+    left: 25vh;
+}
+
+.tools h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+
+.tools h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.tools p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 29px;
+}
+
+.tools a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tools a:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 14px;
+    margin-right: 6px;
+}
+
+.tools a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.tools a:hover:before {
+    background-color: #fff;
+
+}
+
 /*====>>>section_5*/
 
 .monstera_leafs {
