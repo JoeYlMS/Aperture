@@ -517,6 +517,11 @@ header nav ul li:last-of-type a:active {
     padding-right: 16px;
 }
 
+.past_clients .owl-stage{
+    display: flex;
+    align-items: center;
+}
+
 .past_clients .container .d-flex {
     padding-left: 46px;
     padding-right: 46px;
