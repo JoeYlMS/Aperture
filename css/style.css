@@ -35,9 +35,10 @@ h1 {
 header {
     background: #181818;
     padding: 24px 0;
-    position: sticky;
+    position: absolute;
     top: 0;
-    z-index: 100;
+    z-index: 2;
+    width: 100%;
 }
 
 .d-flex {
@@ -262,6 +263,46 @@ header nav ul li:last-of-type a:active {
     max-width: 575px;
     margin-bottom: 16px;
     position: relative;
+}
+
+#accordion .item{
+    width: 49%;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.ui-accordion .ui-accordion-header{
+    max-width: 90px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    transition: .3s;
+}
+
+.ui-accordion .ui-accordion-header span{
+    background: black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.ui-accordion .ui-accordion-header:hover{
+    background: rgba(72, 72, 72, 0.73);
+    color: white;
+}
+
+.ui-accordion .ui-accordion-header{
+    left: -140px;
+    top: 40px;
+}
+
+.ui-accordion .ui-accordion-content{
+    padding: 1px;
+}
+
+.ui-widget-content{
+    border: none;
+    background: black;
 }
 
 .what_we_do .item img {
