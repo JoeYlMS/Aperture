@@ -273,11 +273,13 @@ header nav ul li:last-of-type a:active {
 
 .ui-accordion .ui-accordion-header{
     max-width: 100px;
-    background: white;
-    color: black;
-    border-radius: 10px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border-radius: 15px;
     border: none;
     transition: .3s;
+    background: #3d3d3d;
 }
 
 .ui-accordion .ui-accordion-header span{
@@ -289,7 +291,7 @@ header nav ul li:last-of-type a:active {
 }
 
 .ui-accordion .ui-accordion-header:hover{
-    background: rgba(72, 72, 72, 0.73);
+    background: rgb(126, 126, 126);
     color: white;
 }
 
